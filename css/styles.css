@@ -403,6 +403,7 @@ color: var(--titel-color);
         
         /* CLOUD */
         color: #F4F4FD;
+        display: inline-block;
 
 }
 
