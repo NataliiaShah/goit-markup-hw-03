@@ -228,7 +228,7 @@ img {
     
         /* NAVY BLUE */
         color: var(--titel-color);
-        
+
 }
 .main-content-name {
        font-weight: 500;
@@ -388,7 +388,6 @@ color: var(--titel-color);
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
-        display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -405,7 +404,6 @@ color: var(--titel-color);
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
-        display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
