@@ -16,6 +16,9 @@ ul, ol {
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+}
 
 .container {
     width: 1128px;
@@ -28,11 +31,14 @@ ul, ol {
 
 .header {
     padding-top: 24px;
+    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    
 }
 
 .header-logo-link {
@@ -76,6 +82,8 @@ ul, ol {
 .header-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -133,6 +141,8 @@ ul, ol {
 /**-------------- SECTION --------------*/
 
 .main-section { background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-container {
@@ -177,11 +187,16 @@ ul, ol {
         background-color: #4D5AE5;
         border-radius: 4px;
         margin: 0 auto;
+        display: block;
+        min-width: 169px;
+        border: none;
     
 }
+
 .main-section-button:hover {
     background-color:#404BBF;
 }
+
 .main-section-button:focus {
     background-color:#404BBF;
 }
@@ -242,7 +257,10 @@ color: var(--titel-color);
 .main-pictures-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 48px)/ 3);
+}
+
+.main-list-photo {
+    width: calc((100% - 48px)/ 3); 
 }
 
 .main-pictures-text {
@@ -263,7 +281,7 @@ color: var(--titel-color);
 
 .main-content-team {
     background-color: #F4F4FD;
-    padding-bottom: 0px;
+    padding: 120px 0 120px;
     
 }
 
@@ -271,12 +289,13 @@ color: var(--titel-color);
    background-color: #F4F4FD;
    display: flex;
    gap: 24px;
-   width: calc((100% - 72px)/ 4);
 }
 
 .main-team-item {
     background-color: #FFFFFF;
     margin-bottom: 32px;
+    width: calc((100% - 72px)/ 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .main-team-titel {
@@ -294,8 +313,16 @@ color: var(--titel-color);
         margin-bottom: 72px;
 }
 
+.main-item-workers {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
 .main-team-name {
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         /* identical to box height, or 120% */
@@ -310,7 +337,7 @@ color: var(--titel-color);
 }
 
 .main-team-text {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         /* identical to box height, or 150% */
@@ -356,6 +383,8 @@ color: var(--titel-color);
     
         /* IRIS */
         color: #4D5AE5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -378,13 +407,21 @@ color: var(--titel-color);
 
 /**-------------- HEADER PORTFOLIO --------------*/
 
+ img {
+    display: block;
+ }
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+
+
 }
 
 .header-container-portfolio {
     display: flex;
+    width: 1158px;
 }
 
 .header-navigation-portfolio {
@@ -446,6 +483,10 @@ color: var(--titel-color);
     color: #404bbf;
 }
 
+.header-item {
+    padding: 24px 0;
+}
+
 .header-logo-link {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -479,14 +520,14 @@ color: var(--titel-color);
 /**-------------- MAIN PORTFOLIO --------------*/
 
 .main-portfolio-section {
-    padding-top: 98px;
-    padding-bottom: 120px;
+    padding: 96px 0 120px;
 }
 
 .main-portfolio-section-list {
     margin-bottom: 72px;
     display: flex;
     gap: 24px;
+    justify-content: center;
 
 }
 
@@ -505,21 +546,32 @@ color: var(--titel-color);
     color: #4D5AE5;
     cursor: pointer;
     background-color: #F4F4FD;
-    
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+
 }
 
 .main-portfolio-section-button:hover {
 color:  #FFFFFF;
 background-color: #404BBF;
+border: 1px solid transparent;
 }
 
 .main-portfolio-section-button:focus {
 color:  #FFFFFF;
 background-color: #404BBF;
+border: 1px solid transparent;
 }
 
 .link {
 text-decoration: none;
+}
+
+.link-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .main-portfolio-photo-list {
