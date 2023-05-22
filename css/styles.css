@@ -38,6 +38,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px
     
 }
 
@@ -100,6 +101,7 @@ img {
     
         /* NAVY BLUE */
         color: #2E2F42;
+        padding: 24px 0;
 }
 .header-link:hover {
     color: #404bbf;
@@ -207,7 +209,17 @@ img {
     padding-bottom: 120px;
 }
 
-.main-content-titel {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -400,6 +412,7 @@ color: var(--titel-color);
     
         /* CLOUD */
         color: #F4F4FD;
+        display: inline-block;
 }
 
 
@@ -483,7 +496,7 @@ color: var(--titel-color);
     color: #404bbf;
 }
 
-.header-item {
+.header-list {
     padding: 24px 0;
 }
 
