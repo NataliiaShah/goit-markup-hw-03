@@ -616,35 +616,7 @@ text-decoration: none;
 
 /**-------------- FOOTER PORTFOLIO --------------*/
 
-.footer-logo-link {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        /* IRIS */
-        color: #4D5AE5;
-}
 
-.footer-logo-color {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        /* CLOUD */
-        color: #F4F4FD;
-}
 
 .footer-text {
         font-weight: 400;
